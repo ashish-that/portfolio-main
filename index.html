@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Tripathi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="Stylesheet" href="style/nav.css">
+    <link rel="Stylesheet" href="style/body.css">
+    <link rel="Stylesheet" href="style/loader.css">
+    <link rel="Stylesheet" href="style/cursor.css">
+    <link rel="Stylesheet" href="style/slide2.css">
+    <link rel="Stylesheet" href="style/slide3.css">
+    <link rel="Stylesheet" href="style/skillTabs.css">
+    <link rel="Stylesheet" href="style/leftblock.css">
+    
+
+
+
+    <link rel="shortcut icon" type="x-icon" href="Icons/Letter_A_Icon_64.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+</head>
+<body>
+
+    <div class="fixed top-8 right-6 " style="z-index: 20;">
+        <a class="relative group " href="./assets/Middle finger.pdf" download="Ashish-Cv download">
+            <button class="relative group overflow-hidden px-4 py-3 
+            text-white font-semibold bg-gradient-to-bl from-[#1a2be6]/20 via-[#ffffff]/10 to-[#ffffff]/10 
+            backdrop-blur-xl rounded-full flex hover:-translate-y-1 transition-all ease-in-out 100">
+                CV&nbsp;&nbsp;
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon download-icon">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg> 
+                <div class="bottom-20 group-hover:-bottom-96 -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#7d92cf] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+            </button>
+            
+            <!-- <div class="absolute -bottom-20 -left-4 scale-0 group-hover:scale-100 transition-all bg-gray-800 text-white text-xs rounded-md px-3 py-1 shadow-md">
+                Download my CV
+            </div> -->
+        </a>
+    </div>
+
+    <video autoplay loop muted class="bg-vid" src="vids/videoplayback.mp4"></video>
+    <div class="top1" id="top1"></div>
+    <div class="nav" id="nav1">
+        <div class="navItem "><a href="mailto:ashishtripathi110398@gmail.com"><img src="Icons/white email.png"></a></div>
+        <div class="navItem"><a href="https://www.youtube.com/@theashishtiwarii/"><img src="Icons/yt21.png"></a></div>
+        <div class="navItem">
+            
+            <a href="https://github.com/ashish-that">
+                <img src="Icons/White Github.png">
+            </a>
+        </div>
+        <div class="navItem"><a href="https://x.com/ashdotdev_"><img src="Icons/twitterAsh.svg"></a></div>
+        
+        
+        
+    </div>
+    <div class="main">
+        <div class="hero" >
+            <div class="heroChild">
+                Ashish Tripathi
+            </div>
+            <div class="heroChild2">
+                <span class="not">Not</span> Just Another Developer
+            </div>
+    
+        </div>
+        <div class="arrowDown">
+            <button class="cursor-pointer animate-bounce"  onClick="scrollToSection(slide2)">
+                <svg class="w-24 h-24"  viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+           </button>
+        </div>
+    </div>
+    
+    <div class="navLower">
+        <div class="navItem"> <button style="all: unset;" onClick="scrollToSection(top1)"><img src="Icons/white home.png"></button> </div>
+    </div>
+
+    <div class="slide-2" id="slide2">
+        <div class="bento-box">
+            <div id="left-main">
+                <div class="sliders" id="summary-box">
+                    <div class="summary">
+                        <div class="head1">Hey I'm <span>Ashish</span></div><br>
+                        I'm a 21-year-old <span>Full Stack Developer</span> with a passion for creating dynamic and efficient web solutions. With skills in both <span>front-end</span> and <span>back-end</span> technologies, I build user-friendly applications that are as <span>functional</span> as they are <span>visually appealing</span>.
+                    </div>
+                </div>
+                <div id="profile-box">
+
+                    <div id="block1" class="sliders overflow-hidden max-w-[360px] rounded-[40px] p-4 text-white flex flex-col justify-between gap-4">
+                        
+                        <div class="text-xl font-semibold text-center tracking-wide">
+                          🚧 Currently Building
+                        </div>
+                      
+                        
+                        <div class="flex flex-col gap-3 ">
+                          <div class="bg-zinc-800/70 p-3 rounded-xl hover:-translate-y-1 transition-all duration-300">
+                            <div class="text-sm xl:text-lg font-medium">🧠 JobPortal</div>
+                            <div class="text-xs line-clamp-1 xl:text-sm text-gray-300">👤 Profile | 💼 Jobs | 🔍 Search | 📩 Apply</div>
+                          </div>
+                          <div class="bg-zinc-800/70 p-3 rounded-xl hover:-translate-y-1 transition-all duration-300">
+                            <div class="text-sm xl:text-lg font-medium">📦 QuickieCall</div>
+                            <div class="text-xs line-clamp-1 xl:text-sm text-gray-300">👥 Join Meeting | 🎥 Video & Audio Call</div>
+                          </div>
+                          <div class="bg-zinc-800/70 p-3 rounded-xl hover:-translate-y-1 transition-all duration-300">
+                            <div class="text-sm xl:text-lg font-medium">💻💦 CodeGasam </div>
+                            <div class="text-xs line-clamp-1 xl:text-sm text-gray-300">VS Code Extension⏱️Real-time coding tracker</div>
+                          </div>
+                        </div>
+                      
+                        
+                        <div class="flex justify-between items-center text-xs text-gray-400 pt-2 border-t border-zinc-700 xl:mt-2">
+                          <div>🚀 5+ Projects</div>
+                          <div>💼 Freelancing</div>
+                          <div>🎯 Build in Public</div>
+                        </div>
+                    </div>
+                      
+                    <div class="sliders" id="pfp">
+                        <img src="assets/ashish.jpg" class="pfp-img">
+                    </div>
+                </div>
+            </div>
+            <!-- https://skillicons.dev/icons?i=ts,js,react,nodejs,express,mongodb,sql,tailwindcss <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,express,mongodb,sql,tailwindcss" > -->
+            <div class="sliders" id="right-main">
+            
+                <div class="skillContainer">
+                    <div class="skillCard">
+                        <div class="skillImg">
+                            <img src="https://skillicons.dev/icons?i=ts" >
+                        </div>
+                        <span>TypeScript</span>
+                    </div>
+                </div>
+
+                <div class="skillContainer">
+                    <div class="skillCard">
+                        <div class="skillImg">
+                            <img src="https://skillicons.dev/icons?i=js" >
+                        </div>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skillContainer">
+                    <div class="skillCard">
+                        <div class="skillImg">
+                            <img src="https://skillicons.dev/icons?i=next" >
+                        </div>
+                        <span>Next.js</span>
+                    </div>
+                </div>
+
+                <div class="skillContainer">
+                    <div class="skillCard">
+                        <div class="skillImg">
+                            <img src="https://skillicons.dev/icons?i=react" >
+                        </div>
+                        <span>React</span>
+                    </div>
+                </div>
+
+                <div class="skillContainer">
+                    <div class="skillCard">
+                        <div class="skillImg">
+                            <img src="https://skillicons.dev/icons?i=nodejs" >
+                        </div>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+
+                <div class="skillContainer">
+                    <div class="skillCard">
+                        <div class="skillImg">
+                            <img src="https://skillicons.dev/icons?i=express" >
+                        </div>
+                        <span>Express</span>
+                    </div>
+                </div>
+
+                <div class="skillContainer">
+                    <div class="skillCard">
+                        <div class="skillImg">
+                            <img src="https://skillicons.dev/icons?i=html" >
+                        </div>
+                        <span>HTML</span>
+                    </div>
+                </div>
+
+                <div class="skillContainer">
+                    <div class="skillCard">
+                        <div class="skillImg">
+                            <img src="https://skillicons.dev/icons?i=css" >
+                        </div>
+                        <span>CSS</span>
+                    </div>
+                </div>
+
+                <div class="skillContainer">
+                    <div class="skillCard">
+                        <div class="skillImg">
+                            <img src="https://skillicons.dev/icons?i=mongodb" >
+                        </div>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <div class="slide-3">
+        <div class="project-frame">
+            <iframe 
+              src="https://keepit-mauve.vercel.app/" 
+              class="project-iframe"
+              title="KeepIt Live Preview"
+              loading="lazy">
+            </iframe>
+        </div>
+        <div class="project-frame">
+            <iframe 
+              src="https://truth-chain-client.vercel.app/" 
+              class="project-iframe"
+              title="KeepIt Live Preview"
+              loading="lazy">
+            </iframe>
+        </div>
+        <div class="project-frame">
+            <iframe 
+              src="https://re-flex.vercel.app/" 
+              class="project-iframe"
+              title="KeepIt Live Preview"
+              loading="lazy">
+            </iframe>
+        </div>
+        <div class="project-frame">
+            <iframe 
+              src="https://teach-hub-kohl.vercel.app/" 
+              class="project-iframe"
+              title="KeepIt Live Preview"
+              loading="lazy">
+            </iframe>
+        </div>
+        
+
+    </div> -->
+
+    <div class="slide-3">
+        <div class="slide-3-child">
+            <h1 class="heading">Projects:</h1>
+            <div class="project-container">
+
+                <div class="project-component group">
+                    
+                    <div class="pointer-events-none absolute inset-0 -z-10 group-hover:opacity-100 opacity-0" aria-hidden="true">
+                        <canvas class="particleCanvas size-full"></canvas>
+                    </div>
+
+                    <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#1a2be6] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+                    <img class="project-img" src="./assets/image path" />
+                    <div class="btn-container">
+                        <a href="GitHub repo link" target="_blank">
+                            <button class="project-btn">
+                                Github
+                            </button>
+                        </a>
+                        <a href="Versal path redirect" target="_blank">
+                            <button class="project-btn">
+                                Live
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-component group">
+                    
+                    <div class="pointer-events-none absolute inset-0 -z-10 group-hover:opacity-100 opacity-0" aria-hidden="true">
+                        <canvas class="particleCanvas size-full"></canvas>
+                    </div>
+
+                    <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#1a2be6] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+
+
+                    <img class="project-img" src="./assets/Image path" />
+                    <div class="btn-container">
+                        <a href="gitHub repo" target="_blank">
+                            <button class="project-btn">
+                                Github
+                            </button>
+                        </a>
+                        <a href="versal redirect link" target="_blank">
+                            <button class="project-btn">
+                                Live
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-component group">
+                    
+                    <div class="pointer-events-none absolute inset-0 -z-10 
+                    group-hover:opacity-100 opacity-0" 
+                    aria-hidden="true">
+                        <canvas class="particleCanvas size-full "></canvas>                    </div>
+
+                    <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#1a2be6] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+
+
+                    <img class="project-img" src="./assets/Path" />
+                    <div class="btn-container">
+                        <a href="Repo of project" target="_blank">
+                            <button class="project-btn">
+                                Github
+                            </button>
+                        </a>
+                        <a href="Redirect versal link" target="_blank">
+                            <button class="project-btn">
+                                Live
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-component group">
+                    
+                    <div class="pointer-events-none absolute inset-0 -z-10 group-hover:opacity-100 opacity-0" aria-hidden="true">
+                        <canvas class="particleCanvas size-full"></canvas>
+                    </div>
+
+                    <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#1a2be6] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+
+
+                    <img class="project-img" src="./assets/path" />
+                    <div class="btn-container">
+                        <a href="Repo" target="_blank">
+                            <button class="project-btn">
+                                Github
+                            </button>
+                        </a>
+                        <a href="Versal link" target="_blank">
+                            <button class="project-btn">
+                                Live
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-component group">
+                    
+                    <div class="pointer-events-none absolute inset-0 -z-10 group-hover:opacity-100 opacity-0" aria-hidden="true">
+                        <canvas class="particleCanvas size-full"></canvas>
+                    </div>
+
+                    <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#1a2be6] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+
+
+                    <img class="project-img" src="./assets/Path" />
+                    <div class="btn-container">
+                        <a href="Repo" target="_blank">
+                            <button class="project-btn">
+                                Github
+                            </button>
+                        </a>
+                        <a href="Versal link" target="_blank">
+                            <button class="project-btn">
+                                Live
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-component group">
+                    
+                    <div class="pointer-events-none absolute inset-0 -z-10 group-hover:opacity-100 opacity-0" aria-hidden="true">
+                        <canvas class="particleCanvas size-full"></canvas>
+                    </div>
+
+                    <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#00f0ff] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+
+
+                    <img class="project-img" src="./assets/Path" />
+                    <div class="btn-container">
+                        <a href="Repo" target="_blank">
+                            <button class="project-btn">
+                                Github
+                            </button>
+                        </a>
+                        <a href="vesal" target="_blank">
+                            <button class="project-btn">
+                                Live
+                            </button>
+                        </a>
+                    </div>
+                </div> -->
+
+                 <!-- <div class="project-component group">
+                    
+                    <div class="pointer-events-none absolute inset-0 -z-10 group-hover:opacity-100 opacity-0" aria-hidden="true">
+                        <canvas class="particleCanvas size-full"></canvas>
+                    </div>
+
+                    <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#00f0ff] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+
+
+                    <img class="project-img" src="./assets/portfolio2.png" />
+                    <div class="btn-container">
+                        <a href="Github link" target="_blank">
+                            <button class="project-btn">
+                                Github
+                            </button>
+                        </a>
+                        <a href="Githublink" target="_blank">
+                            <button class="project-btn">
+                                Live
+                            </button>
+                        </a>
+                    </div>
+                </div> -->
+
+                <!-- <div class="project-component group">
+                    
+                    <div class="pointer-events-none absolute inset-0 -z-10 group-hover:opacity-100 opacity-0" aria-hidden="true">
+                        <canvas class="particleCanvas size-full"></canvas>
+                    </div>
+
+                    <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#00f0ff] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+
+
+                    <img class="project-img" src="./assets/ytclone.png" />
+                    <div class="btn-container">
+                        <a href="Github repolink" target="_blank">
+                            <button class="project-btn">
+                                Github
+                            </button>
+                        </a>
+                        <a href="Githublink" target="_blank">
+                            <button class="project-btn">
+                                Live
+                            </button>
+                        </a>
+                    </div>
+                </div> -->
+
+                <!-- <div class="project-component group">
+                    
+                    <div class="pointer-events-none absolute inset-0 -z-10 group-hover:opacity-100 opacity-0" aria-hidden="true">
+                        <canvas class="particleCanvas size-full"></canvas>
+                    </div>
+
+                    <div class="bottom-[-20rem] -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#00f0ff] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+
+
+                    <img class="project-img" src="./assets/rock.png" />
+                    <div class="btn-container">
+                        <a href=Githublink repo" target="_blank">
+                            <button class="project-btn">
+                                Github
+                            </button>
+                        </a>
+                        <a href="Githubrepo" target="_blank">
+                            <button class="project-btn">
+                                Live
+                            </button>
+                        </a>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="loader-container" id="preloader">
+        <div class="loader">
+            
+        </div>
+    </div>
+
+    <div class="cursor" data-cursor ></div>
+
+    <script src="app.js"></script> 
+</body>
+</html>
